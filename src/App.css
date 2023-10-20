@@ -1,0 +1,97 @@
+.demo {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .demo h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .demo1,
+  .demo2,
+  .demo3,
+  .demo4,
+  .demo5 {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .radio {
+    display: flex;
+    align-items: center;
+    color: #555;
+  }
+  
+  .radio label {
+    margin-right: 10px;
+  }
+  
+  #languages {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 500px) {
+    .demo {
+    max-height: 570px;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    input[type="text"] {
+      padding: 8px;
+    }
+  
+    .radio label {
+      margin-right: 5px;
+    }
+  
+    #languages {
+      padding: 8px;
+    }
+  
+    button {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  }
+
+  
